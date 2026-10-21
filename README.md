@@ -8,9 +8,10 @@ AI Auditor is a zero-dependency Python framework for adversarial testing of LLM 
 RL-trained systems. Its design bet: **a finding should be verifiable evidence, not an LLM's opinion.**
 
 ```bash
-pip install -e .
-ai-auditor demo            # 60 seconds, no API key, runs on simulated agents
+python -m pip install .
+ai-auditor demo --out demo-reports  # no API key; simulated agents; writes local reports
 ```
+
 
 ## What makes it different
 
